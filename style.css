@@ -1,5 +1,8 @@
 @media only screen and (min-width: 320px)
 {
+    .box-and-text:nth-child(odd){display:none;}/*display only 2 images and texts instead of 4*/
+
+
     html
     {
         font-size: 8px;
@@ -238,6 +241,7 @@
 
 @media only screen and (min-width: 700px)
 {
+    .box-and-text:nth-child(odd){display:block;}/*redo the 2 deleted elements*/
     html
     {
         font-size: 16px;
